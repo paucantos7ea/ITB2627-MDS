@@ -12,7 +12,6 @@ edad = int (input(Quina edat tens?))
 if edad >= 18:
     print ("Ets major d'edat")
     else: 
-        if edad < 18:
-            print ("Ets menor d'edat")
+        print ("Ets menor d'edat")
 
 print ("Fi del programa")
