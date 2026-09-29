@@ -15,4 +15,11 @@ if edad >= 18:
 else:
     print("Ets menor d'edat")
 
+#Funció 1: edad d'aqui a 10 anys
+print (f"En 10 anys tindràs {edad + 10} anys")
+
+#Funció 2: edad d'aqui als 18 anys
+if edad < 18:
+    print(f"Et falten {18 - edad} anys per ser major d'edat")
+
 print("Fi del programa")
